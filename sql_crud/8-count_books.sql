@@ -1,0 +1,1 @@
+SELECT SUM(id) FROM books;

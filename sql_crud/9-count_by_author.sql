@@ -1,2 +1,2 @@
-SELECT author, SUM(books) FROM books
+SELECT author, COUNT(books) FROM books
 GROUP BY author;
